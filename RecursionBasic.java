@@ -83,15 +83,74 @@ public static int pow(int x,int n){
         return 1;
     return x*pow(x, n-1);
 }
-    
+
+// Tilling problem
+public static int tillaingPro(int n){
+    if(n==0 || n==1){
+        return 1;
+    }
+    int vertical=tillaingPro(n-1);
+
+    int horizontal = tillaingPro(n-2);
+
+    int totalways= vertical + horizontal;
+    return totalways;
+}
+
+// remove duplicate from a string ---
+public static void removeDuplicate(String str,int idx,StringBuilder newstr,boolean map[]){
+    if(idx==str.length()){
+        System.out.println(newstr);
+        return;
+    }
+    char current = str.charAt(idx);
+    if(map[current-'a']==true){
+        removeDuplicate(str, idx+1, newstr, map);
+    }
+    else{
+        map[current-'a']=true;
+        removeDuplicate(str, idx+1, newstr.append(current), map);
+    }
+
+}
+
+// friend paring problem --------------
+public static int friendPair(int n){
+    if(n==1 || n==2){
+        return n;
+    }
+    // single pair
+    int singlePair = friendPair(n-1);
+
+    // pair with friend-----
+    int fnm2 = friendPair(n-2);
+    int pairWay=(n-1)*fnm2;
+
+
+    // totoal ways 
+    int total=singlePair+pairWay;
+    return total;
+}
+
+// binary string 
+
+public static void binString(int n,int lastplace,String str){
+    if(n==0){
+        System.out.println(str);
+        return;
+    }
+    binString(n-1, 0, str+="0");
+    if(lastplace==0){
+        binString(n-1,1,str+="1");
+    }
+}
     public static void main(String[] args) {
-        int n = 5;
-        // System.out.print(fib(n));
-        int arr[]={1,2,2,4,4,3};
-        // System.out.println(sortedarr(arr, 0)); 
-        // System.out.println(firstOcc(arr, 0, 3));
-        int x=2;
-        System.out.println(pow(x, n));
+    //   String str="summmittpatill";
+    //  removeDuplicate(str, 0, new StringBuilder(""), new boolean [26]); 
+     int n=3;
+    // System.out.println(friendPair(n));
+    binString(n, 0, "");
+
     }
     
 }
