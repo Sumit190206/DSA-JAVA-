@@ -90,6 +90,14 @@ public class Arraylist1 {
             int target = 3;
             System.out.println(pairSum1(list1, target));
 
+            // ----------------Lonely-----------
+            ArrayList<Integer> ans = new ArrayList<>();
+            ans.add(2);
+            ans.add(4);
+            ans.add(5);
+            System.out.println(ans);
+            System.out.println("lonely numbers are::" +  Alone(ans));
+           
             }
 
 
@@ -147,4 +155,45 @@ public class Arraylist1 {
             }
             return false;
         }
-     }
+  // --------------------------------------------------
+//   Monotonic arrayliust or not
+        public boolean isMonotonic(int[] nums) {
+            if (nums.length <= 2) return true;
+
+            boolean inc = true;
+            boolean dec = true;
+
+            for (int i = 1; i < nums.length; i++) {
+                if (nums[i]<nums[i-1]) {
+                    inc = false;
+                }
+                if (nums[i]>nums[i - 1]) {
+                    dec = false;
+                }
+            }
+            return inc || dec;
+        }
+// ---------------------------------------------------------------------------------
+        //Lonely Numbers in ArrayList (brutal force - time complexity O(n^2))
+        public static ArrayList<Integer> Alone(ArrayList<Integer>list){
+            ArrayList<Integer> ans = new ArrayList<>();
+            boolean Lonely=true;
+            for(int i=0;i<list.size();i++){
+                int current = list.get(i);
+                for(int j=0;j<list.size();j++){
+                    if(list.get(j) == current+1){
+                        Lonely=false;
+                        break;
+                    }
+                    if(list.get(i) == current-1){
+                        Lonely=false;
+                    }
+                }
+                if(Lonely == true){
+                    ans.add(current);
+                }
+
+            }
+            return ans;
+        }
+}
