@@ -19,4 +19,6 @@ public class javabasic {
     sc.close();
     }
 
+
 }
+

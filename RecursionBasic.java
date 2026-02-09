@@ -153,5 +153,4 @@ public static void binString(int n,int lastplace,String str){
     binString(n, 0, "");
 
     }
-    
 }
