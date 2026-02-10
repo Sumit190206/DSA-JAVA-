@@ -12,19 +12,22 @@ public class Linklist {
     }
     public static Node head;
     public static Node tail;
+    public static int size;
 
-    public void addFirst(int data){
-        Node newNode = new Node(data);
-        if(head == null){
-            head=tail=newNode;
-            return;
-        }
-        newNode.next=head;
-        head=newNode;
-        }
+        public void addFirst(int data){
+            Node newNode = new Node(data);
+            size++;
+            if(head == null){
+                head=tail=newNode;
+                return;
+            }
+            newNode.next=head;
+            head=newNode;
+            }
 
         public void addLast(int data){
             Node newNode = new Node(data);
+            size++;
             if(head==null){
                 head = tail = newNode;
                 return;
@@ -52,6 +55,7 @@ public class Linklist {
                 return;
             }
             Node newNode = new Node(data);
+            size++;
             Node temp = head;
             int i =0;
             while(i!= index-1){
@@ -70,6 +74,7 @@ public class Linklist {
        ll.add(2, 8);
        ll.addLast(4);
        ll.printList();
+       System.out.println(ll.size);
     }
     
 }
