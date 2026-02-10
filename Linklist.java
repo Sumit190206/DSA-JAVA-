@@ -58,7 +58,7 @@ public class Linklist {
             size++;
             Node temp = head;
             int i =0;
-            while(i!= index-1){
+            while(i <index-1){
                 temp=temp.next;
                 i++; 
             }
@@ -66,15 +66,58 @@ public class Linklist {
             temp.next=newNode;
         }
 
+        public int removeFirst(){
+            if(size ==0){
+                System.out.println("link list is empty");
+                return Integer.MIN_VALUE;
+            }
+            else if(size==1){
+                int val = head.data;
+                head=tail=null;
+                return val;
+            }
+            int val =  head.data;
+            head=head.next;
+            size--;
+            return val;
+        }
+
+        public int removeLast(){
+            if(size==0){
+                  System.out.println("link list is empty");
+                return Integer.MIN_VALUE;
+            }
+            else if(size==1){
+                int val = head.data;
+                head=tail=null;
+                return val;
+            }
+            Node prev = head;
+            for(int i = 0 ; i < size-2;i++){
+                prev=prev.next;
+            }
+            int val = prev.next.data;
+            prev.next=null;
+            tail = prev;
+            size--;
+            return val;
+
+        }
+
     public static void main(String[] args) {
         Linklist ll = new Linklist();
        ll.addFirst(2);
        ll.addFirst(1);
        ll.addLast(3);
-       ll.add(2, 8);
-       ll.addLast(4);
+       ll.add(1, 4);
+       ll.addLast(5);
        ll.printList();
        System.out.println(ll.size);
+       ll.removeFirst();
+       ll.printList();
+       ll.removeLast();
+       ll.printList();
+        System.out.println(ll.size);
     }
     
 }
