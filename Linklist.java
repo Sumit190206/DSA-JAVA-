@@ -104,6 +104,39 @@ public class Linklist {
 
         }
 
+        public int itsearch(int key){
+            int i=0;
+            Node temp = head;
+            while(temp!=null){
+                if(temp.data==key){
+                    // System.out.print("KEY FOUND AT INDEX :: " + i);
+                    return i;
+                }
+                    temp=temp.next;
+                    i++;
+            }
+            // System.err.println("key not found");
+            return -1;
+        }
+         
+        public int helper(Node head,int key){
+            if(head == null){
+                return -1;
+            }
+            if(head.data==key){
+                return 0;
+            }
+            int idx=helper(head.next, key);
+            if(idx == -1){
+                return -1;
+            }
+            return idx+1;
+        }
+
+        public int research(int key){
+            return helper(head.next,key);
+        }
+
     public static void main(String[] args) {
         Linklist ll = new Linklist();
        ll.addFirst(2);
@@ -118,6 +151,7 @@ public class Linklist {
        ll.removeLast();
        ll.printList();
         System.out.println(ll.size);
+        System.out.println(ll.research(9));
     }
     
 }
