@@ -160,25 +160,64 @@ public class Linklist {
             }
             return slow;
         }
+        public boolean checkPal(){
+            if(head == null || head.next == null){
+                return true;
+            }
+            Node mid= findMiddle(head);
+            Node prev=null;
+            Node curr=mid;
+            Node next;
+
+            while(curr != null){
+                next=curr.next;
+                curr.next=prev;
+                prev=curr;
+                curr=next;
+            }
+
+            Node left=head;
+            Node right = prev;
+            while(right != null){
+                if(left.data != right.data){
+                    return false;
+                }
+                right=right.next;
+                left=left.next;
+            }
+
+            return true;
+        }
 
     public static void main(String[] args) {
-        Linklist ll = new Linklist();
-       ll.addFirst(2);
-       ll.addFirst(1);
-       ll.addLast(4);
-       ll.add(2, 3);
-       ll.addLast(5);
-       ll.printList();
-       System.out.println(ll.size);
-       ll.addFirst(4);
-       ll.removeFirst(); 
-       ll.printList();
-       ll.removeLast();
-       ll.printList();
-        // System.out.println(ll.size);
-        System.out.println(ll.research(3));
-        ll.reverse();
-        ll.printList();
+    //     Linklist ll = new Linklist();
+    //    ll.addFirst(2);
+    //    ll.addFirst(1);
+    //    ll.addLast(4);
+    //    ll.add(2, 3);
+    //    ll.addLast(5);
+    //    ll.printList();
+    //    System.out.println(ll.size);
+    //    ll.addFirst(4);
+    //    ll.removeFirst(); 
+    //    ll.printList();
+    //    ll.removeLast();
+    //    ll.printList();
+    //     // System.out.println(ll.size);
+    //     System.out.println(ll.research(3));
+    //     ll.reverse();
+    //     ll.printList();
+        System.out.println();
+
+
+        Linklist ll2 = new Linklist();
+        ll2.addFirst(1);
+        ll2.addLast(2);
+        ll2.addLast(2);
+        ll2.addLast(1);
+        ll2.printList();
+        System.out.println(ll2.checkPal());
+
     }
     
 }
