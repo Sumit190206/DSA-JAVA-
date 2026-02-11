@@ -134,24 +134,51 @@ public class Linklist {
         }
 
         public int research(int key){
-            return helper(head.next,key);
+            return helper(head,key);
+        }
+
+        public void reverse(){
+            Node prev=null;
+            Node curr = tail=head;
+            Node next;
+
+            while(curr != null){
+                next = curr.next;
+                curr.next=prev;//here link is reversed
+                prev=curr;
+                curr=next;
+            }
+            head=prev;  
+        }
+
+        public Node findMiddle(Node head){
+            Node slow = head;
+            Node fast = head;
+            while (fast != null && fast.next != null) {
+                slow=slow.next;
+                fast=fast.next.next;
+            }
+            return slow;
         }
 
     public static void main(String[] args) {
         Linklist ll = new Linklist();
        ll.addFirst(2);
        ll.addFirst(1);
-       ll.addLast(3);
-       ll.add(1, 4);
+       ll.addLast(4);
+       ll.add(2, 3);
        ll.addLast(5);
        ll.printList();
        System.out.println(ll.size);
-       ll.removeFirst();
+       ll.addFirst(4);
+       ll.removeFirst(); 
        ll.printList();
        ll.removeLast();
        ll.printList();
-        System.out.println(ll.size);
-        System.out.println(ll.research(9));
+        // System.out.println(ll.size);
+        System.out.println(ll.research(3));
+        ll.reverse();
+        ll.printList();
     }
     
 }
