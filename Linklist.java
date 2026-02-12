@@ -1,4 +1,6 @@
 public class Linklist {
+
+    // CREATING A CLASS NODE 
     public static class  Node {
         int data;
         Node next;
@@ -13,7 +15,7 @@ public class Linklist {
     public static Node head;
     public static Node tail;
     public static int size;
-
+        // ADDING A NODE AT STARING POSITION
         public void addFirst(int data){
             Node newNode = new Node(data);
             size++;
@@ -24,7 +26,7 @@ public class Linklist {
             newNode.next=head;
             head=newNode;
             }
-
+        // ADDING A NODE AT LAST
         public void addLast(int data){
             Node newNode = new Node(data);
             size++;
@@ -35,7 +37,7 @@ public class Linklist {
             tail.next = newNode;
             tail=newNode;
         }
-
+        // FUNCTION TO PRINT A LINKED LIST
         public void printList(){
             if(head == null){
                 System.out.println("linked list is empty");
@@ -48,7 +50,7 @@ public class Linklist {
             }
             System.out.println("NULL");
         }
-
+        // ADDING A NEW NODE AT A SPECIFIC INDEX
         public void add(int index,int data){
             if(index == 0 ){
                 addFirst(data);
@@ -65,7 +67,7 @@ public class Linklist {
             newNode.next=temp.next;
             temp.next=newNode;
         }
-
+        // FUNCTION TO REMOVE ELEMENTS FROM FRONT SIDE
         public int removeFirst(){
             if(size ==0){
                 System.out.println("link list is empty");
@@ -81,7 +83,7 @@ public class Linklist {
             size--;
             return val;
         }
-
+        // FUNCTION  TO REMOVE ELEMENT FROM REAR PART
         public int removeLast(){
             if(size==0){
                   System.out.println("link list is empty");
@@ -103,7 +105,7 @@ public class Linklist {
             return val;
 
         }
-
+        // FUNCTION TO SEARCH IN LINKED LIST ITRATIVE APPROCH
         public int itsearch(int key){
             int i=0;
             Node temp = head;
@@ -118,7 +120,7 @@ public class Linklist {
             // System.err.println("key not found");
             return -1;
         }
-         
+        //  HELPER FUNCTION
         public int helper(Node head,int key){
             if(head == null){
                 return -1;
@@ -132,11 +134,11 @@ public class Linklist {
             }
             return idx+1;
         }
-
+        // FUNCTION TO SEARCH IN LINKED LIST IN RECARSIVE APPROCH
         public int research(int key){
             return helper(head,key);
         }
-
+        // FUNCTION TO REVERSE A LIST
         public void reverse(){
             Node prev=null;
             Node curr = tail=head;
@@ -150,7 +152,7 @@ public class Linklist {
             }
             head=prev;  
         }
-
+        // FUNCTION TO FIND MIDDLE ELEMENT
         public Node findMiddle(Node head){
             Node slow = head;
             Node fast = head;
@@ -160,6 +162,7 @@ public class Linklist {
             }
             return slow;
         }
+        // CHECK WATHER A LIST IS PALINDROME OR NOT
         public boolean checkPal(){
             if(head == null || head.next == null){
                 return true;
@@ -188,6 +191,7 @@ public class Linklist {
 
             return true;
         }
+        // CHECK WATHER LIST IS IN CYCLE FORM OR NOT
         public boolean isCycle(Node head){ 
             Node slow = head;
             Node fast = head;
@@ -199,6 +203,33 @@ public class Linklist {
                 }
             }
             return false;
+        }
+
+        // REMOVING CYCLE 
+        public static void removeCycle(){
+            Node slow =head;
+            boolean cycle=false;
+            Node fast = head;
+            while (fast != null && fast.next != null) {
+                slow=slow.next;
+                fast=fast.next.next;
+                if(slow ==fast){
+                    cycle = true;
+                    break;
+                }
+            }
+            if(cycle == false){
+                return;
+            }
+            slow= head;
+            Node prev = null;
+            while(slow != fast){
+                prev=fast;
+                slow=slow.next;
+                fast=fast.next;
+            }
+            prev.next=null;
+            // sjnkjasds
         }
 
     public static void main(String[] args) {
