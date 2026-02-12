@@ -188,6 +188,18 @@ public class Linklist {
 
             return true;
         }
+        public boolean isCycle(Node head){ 
+            Node slow = head;
+            Node fast = head;
+            while(fast != null && fast.next != null){
+                slow = slow.next;
+                fast=fast.next.next;
+                if(slow == fast){
+                    return true;
+                }
+            }
+            return false;
+        }
 
     public static void main(String[] args) {
     //     Linklist ll = new Linklist();
@@ -203,7 +215,7 @@ public class Linklist {
     //    ll.printList();
     //    ll.removeLast();
     //    ll.printList();
-    //     // System.out.println(ll.size);
+    //     System.out.println(ll.size);
     //     System.out.println(ll.research(3));
     //     ll.reverse();
     //     ll.printList();
