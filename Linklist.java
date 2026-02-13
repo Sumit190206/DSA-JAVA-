@@ -206,32 +206,7 @@ public class Linklist {
         }
 
         // REMOVING CYCLE 
-        public static void removeCycle(){
-            Node slow =head;
-            boolean cycle=false;
-            Node fast = head;
-            while (fast != null && fast.next != null) {
-                slow=slow.next;
-                fast=fast.next.next;
-                if(slow ==fast){
-                    cycle = true;
-                    break;
-                }
-            }
-            if(cycle == false){
-                return;
-            }
-            slow= head;
-            Node prev = null;
-            while(slow != fast){
-                prev=fast;
-                slow=slow.next;
-                fast=fast.next;
-            }
-            prev.next=null;
-            // sjnkjasds
-        }
-
+       
     public static void main(String[] args) {
     //     Linklist ll = new Linklist();
     //    ll.addFirst(2);
