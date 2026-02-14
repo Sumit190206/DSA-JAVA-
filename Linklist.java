@@ -231,18 +231,22 @@ public class Linklist {
             prev.next=null;
              
         }
-        public Node getmid(Node head){
-            Node slow = head;
-            Node fast =head.next;
-            while (fast  != null && fast.next != null) {
-                slow=slow.next;
-                fast=fast.next.next;
-                
-            }
-            return slow;
-        }
 
-        public Node merge (Node head1, Node head2){
+
+        public Node getmid(Node head) {
+                Node slow = head;
+                Node fast = head.next;
+
+                while (fast != null && fast.next != null) {
+                    slow = slow.next;
+                    fast = fast.next.next;
+                }
+
+                return slow;
+         }
+
+
+        private Node merge (Node head1, Node head2){
             Node mergell = new Node(-1);
             Node temp=mergell;
             while (head1 != null && head2 != null) {
@@ -285,7 +289,48 @@ public class Linklist {
             return merge(leftpart,rightPart);
 
         }
+    //   ZIG-ZAG THE LINKED LIST 
+        public void zigZag(){
 
+            // find mid
+             Node slow = head;
+             Node fast = head.next;
+                while (fast != null && fast.next != null) {
+                    slow = slow.next;
+                    fast = fast.next.next;
+                }
+            Node mid =slow;
+            Node r = mid.next;
+            mid.next = null;
+            // reverse second half
+            Node revRight = reverseHalf(r);
+            // Merge in zig zag way 
+            Node nextL;
+            Node nextR;
+            Node left = head;
+            Node right = revRight;
+             while (left != null && right != null) {
+                nextL=left.next;
+                left.next=right;
+                nextR=right.next;
+                right.next = nextL;
+
+                left=nextL;
+                right=nextR;
+             }
+        }
+        public Node reverseHalf(Node head){
+            Node prev=null;
+            Node curr = head;
+            Node next;
+            while(curr !=null){
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            return prev;
+        }
     public static void main(String[] args) {
     //     Linklist ll = new Linklist();
     //    ll.addFirst(2);
@@ -310,11 +355,11 @@ public class Linklist {
         Linklist ll2 = new Linklist();
         ll2.addFirst(1);
         ll2.addLast(2);
-        ll2.addLast(2);
-        ll2.addLast(1);
+        ll2.addLast(3);
+        ll2.addLast(4);
+        ll2.addLast(5);
         ll2.printList();
-        System.out.println(ll2.checkPal());
-        ll2.head=ll2.mergeSort(ll2.head);
+        ll2.zigZag();
         ll2.printList();
 
     }
