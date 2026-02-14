@@ -231,6 +231,33 @@ public class Linklist {
             prev.next=null;
              
         }
+        public Node getmid(Node head){
+            Node slow = head;
+            Node fast =head.next;
+            while (fast  != null && fast.next != null) {
+                slow=slow.next;
+                fast=fast.next.next;
+                
+            }
+            return slow;
+        }
+
+
+        // MERGE SORT IN LINKED LIST   
+        public Node mergeSort(Node head){
+            if(head == null || head.next == null){
+                return head;
+            }
+            Node mid= getmid(head);
+
+            Node rightHalf = mid.next;
+            mid.next=null;
+            Node leftpart = mergeSort(head);
+            Node rightPart = mergeSort(rightHalf);
+            
+            return merge(leftpart,rightPart);
+
+        }
 
     public static void main(String[] args) {
     //     Linklist ll = new Linklist();
