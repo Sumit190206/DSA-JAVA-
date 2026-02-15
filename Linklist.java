@@ -319,7 +319,18 @@ public class Linklist {
                 right=nextR;
              }
         }
-      
+        public Node reverseHalf(Node head){
+            Node prev=null;
+            Node curr = head;
+            Node next;
+            while(curr !=null){
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            return prev;
+        }
     public static void main(String[] args) {
     //     Linklist ll = new Linklist();
     //    ll.addFirst(2);
