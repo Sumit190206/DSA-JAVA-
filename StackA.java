@@ -1,32 +1,73 @@
 import java.util.ArrayList;
 public class StackA {
-    static class Stack {
-        static ArrayList<Integer>list= new ArrayList<>();
+    static class Node{
+        int data;
+        Node next;
 
-        public static Boolean isEmpty(){
-            return list.size() == 0;
+        Node(int data){
+            this.data=data;
+            this.next=null;
+        }
     }
+
+    static class Stack {
+    //     static ArrayList<Integer>list= new ArrayList<>();
+
+    //     public static Boolean isEmpty(){
+    //         return list.size() == 0;
+    // }
+    //     public static void push(int data){
+    //         list.add(data);
+    //     }
+    //     public static int pop(){
+    //         int top = list.get(list.size()-1);
+    //         int remove = list.removeLast();
+    //         return remove;
+    //     }
+    //     public static int peek(){
+    //         int top = list.get(list.size()-1);
+    //         return top;
+    //     }
+        static Node head = null;
+        public static boolean isEmpty(){
+            return head == null;
+        }
         public static void push(int data){
-            list.add(data);
+            Node temp = new Node(data);
+            if(isEmpty()){
+               head = temp;
+               return;
+            } 
+            temp.next =head;
+            head=temp;
         }
         public static int pop(){
-            int top = list.get(list.size()-1);
-            int remove = list.removeLast();
-            return remove;
+            if(isEmpty()){
+                return-1;
+            }
+           int top = head.data;
+           head = head.next;
+           return top;
         }
         public static int peek(){
-            int top = list.get(list.size()-1);
-            return top;
+            if(isEmpty()){
+                return -1 ;
+            }
+            
+            return head.data;
         }
     }
     public static void main(String[] args) {
         Stack s = new Stack();
-        ArrayList<Integer> list = new ArrayList<>();
+        // ArrayList<Integer> list = new ArrayList<>();
         s.push(1);
-        s.push(2);
+        s.push(4);
         s.push(3);
-       System.out.println(s.pop());
-       System.out.println(s.peek());
+        while(!s.isEmpty()){
+          System.out.println(s.peek());
+          s.pop();
+        }
+      
         
     }
 }
