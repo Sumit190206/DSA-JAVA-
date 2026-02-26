@@ -96,7 +96,25 @@ public class StackA {
             System.out.println(s.pop());
         }
     }
-    
+    public static void stockSpan(int stock[] , int span[]){
+        span[0]=1;
+        Stack<Integer> s = new Stack<>();
+        s.push(0);
+        for(int i = 1;i<stock.length;i++){
+            int currentPrice = stock[i];
+            while(!s.isEmpty() && currentPrice > stock[s.peek()]){
+                s.pop();
+            }
+            if(s.isEmpty()){
+                span[i]=i+1;
+            }
+            else {
+                int pre = s.peek();
+                span[i]=i-pre;
+            }
+            s.push(i);
+        }
+    }
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
         s.push(1);
