@@ -116,14 +116,12 @@ public class StackA {
         }
     }
     public static void main(String[] args) {
-        Stack<Integer> s = new Stack<>();
-        s.push(1);
-        s.push(2);
-        s.push(3);
-        
-        reverseStack(s);
-        System.out.println("Stack after reverse");
-        printStack(s);
+      int  stock []= {100,80,60,65,80,85,100};
+      int span[] = new int[stock.length];
+      stockSpan(stock, span);
+      for(int i = 0 ; i<span.length;i++){
+        System.out.print(span[i]+ " ");
+      }
         
         
     }
