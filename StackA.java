@@ -115,14 +115,14 @@ public class StackA {
             s.push(i);
         }
     }
-    public static void main(String[] args) {
-      int  stock []= {100,80,60,65,80,85,100};
-      int span[] = new int[stock.length];
-      stockSpan(stock, span);
-      for(int i = 0 ; i<span.length;i++){
-        System.out.print(span[i]+ " ");
-      }
+//     public static void main(String[] args) {
+//       int  stock []= {100,80,60,65,80,85,100};
+//       int span[] = new int[stock.length];
+//       stockSpan(stock, span);
+//       for(int i = 0 ; i<span.length;i++){
+//         System.out.print(span[i]+ " ");
+//       }
         
         
-    }
-}
+//     }
+// }
