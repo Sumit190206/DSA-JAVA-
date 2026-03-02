@@ -115,14 +115,28 @@ public class StackA {
             s.push(i);
         }
     }
+    public static void nextMax(int arr[],int nextGrater[]){
+         Stack<Integer>s = new Stack<>();
+        for(int i = arr.length-1;i>=0;i--){
+            while(!s.isEmpty() && arr[s.peek()]<=arr[i]){
+                s.pop();
+            }
+            if(s.isEmpty()){
+                nextGrater[i]=-1;
+            }
+            else{
+                nextGrater[i]=arr[s.peek()];
+            }
+            s.push(i);
+        }
+        for(int i=0;i<nextGrater.length;i++){
+            System.out.print(nextGrater[i]+" ");
+        }
+        System.out.println();
+        }
     public static void main(String[] args) {
-      int  stock []= {100,80,60,65,80,85,100};
-      int span[] = new int[stock.length];
-      stockSpan(stock, span);
-      for(int i = 0 ; i<span.length;i++){
-        System.out.print(span[i]+ " ");
-      }
-        
-        
+     int arr[] = {5,4,8,2,1};
+     int nextGrater[]=new int[arr.length];
+     nextMax(arr, nextGrater);   
     }
 }
