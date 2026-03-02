@@ -114,7 +114,34 @@ public class StackA {
             }
             s.push(i);
         }
+        
     }
+    public static boolean valideParentheses(String str){
+            Stack<Character>s = new Stack<>();
+           for(int i = 0 ; i<str.length();i++){
+            char ch = str.charAt(i);
+            if (ch =='(' || ch =='[' || ch =='{') {
+                s.push(ch);
+            }
+            else{
+                if(s.isEmpty()){
+                    return false;
+                }
+                if(s.peek()=='('&& ch ==')' || s.peek()=='[' && ch ==']' || s.peek()=='{'&& ch == '}'){
+                    s.pop();
+                }
+                else{
+                    return false;
+                }
+            }
+           }
+           if(s.isEmpty()){
+            return true;
+           }
+           else{
+            return false;
+           }
+        }
     public static void nextMax(int arr[],int nextGrater[]){
          Stack<Integer>s = new Stack<>();
         for(int i = arr.length-1;i>=0;i--){
@@ -135,8 +162,7 @@ public class StackA {
         System.out.println();
         }
     public static void main(String[] args) {
-     int arr[] = {5,4,8,2,1};
-     int nextGrater[]=new int[arr.length];
-     nextMax(arr, nextGrater);   
+     String str ="{[]}";
+     System.out.println(valideParentheses(str));  
     }
 }
