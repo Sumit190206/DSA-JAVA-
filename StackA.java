@@ -146,25 +146,7 @@ public class StackA {
            }
         }
         // =============finding next grater=================
-    public static void nextMax(int arr[],int nextGrater[]){
-         Stack<Integer>s = new Stack<>();
-        for(int i = arr.length-1;i>=0;i--){
-            while(!s.isEmpty() && arr[s.peek()]<=arr[i]){
-                s.pop();
-            }
-            if(s.isEmpty()){
-                nextGrater[i]=-1;
-            }
-            else{
-                nextGrater[i]=arr[s.peek()];
-            }
-            s.push(i);
-        }
-        for(int i=0;i<nextGrater.length;i++){
-            System.out.print(nextGrater[i]+" ");
-        }
-        System.out.println();
-        }
+   
     public static boolean duplicateParentheses(String str){
         Stack<Character>s = new Stack<>();
         for(int i=0;i<str.length();i++){
@@ -190,11 +172,52 @@ public class StackA {
      return false;
     }
 
+    // ==============Max area of histogram================
+    public static void maxArea(int arr[]){
+        int maxarea =0;
+        int nsr[]= new int[arr.length];
+        int nsl[]=new int[arr.length];
+        Stack<Integer> s = new Stack<>();
+        // right smaller
+        for(int i=arr.length-1;i>=0;i--){
+            while(!s.isEmpty() && arr[s.peek()]>=arr[i]){
+                s.pop();
+            }
+            if(s.isEmpty()){
+                nsr[i]=arr.length;
+            }
+            else{
+                nsr[i]=s.peek();
+            }
+            s.push(i);
+        }
+        // left smaller
+        s = new Stack<>();
+         for(int i=0;i<arr.length;i++){
+            while(!s.isEmpty() && arr[s.peek()]>=arr[i]){
+                s.pop();
+            }
+            if(s.isEmpty()){
+                nsl[i]=-1;
+            }
+            else{
+                nsl[i]=s.peek();
+            }
+            s.push(i);
+        }
+        // area=height *width (width = right smaller - left smaller - 1)
+        for(int i=0;i<arr.length;i++){
+            int height = arr[i];
+            int width = nsr[i] - nsl[i] - 1;
+            int area= height * width;
+            maxarea=Math.max(maxarea,area);
+        }
+        System.out.println("THE MAXIMUM AREA OF HISTOGRAM IS : "+ maxarea);
+
+    }
+
     public static void main(String[] args) {
-     String str ="((a+b))";
-     String str2="(a+b)";
-     System.out.println(duplicateParentheses(str));
-     System.out.println(duplicateParentheses(str2));
-   
+    int arr[]={2,1,5,6,2,3};
+    maxArea(arr);
     }
 }
