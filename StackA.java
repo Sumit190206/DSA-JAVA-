@@ -59,6 +59,7 @@ public class StackA {
     //         return head.data;
     //     }
     // }
+    // ============reverse a string====================
     public static void reverseString(Stack<Character>s,String str){
         for(int i= 0;i<str.length();i++){
             s.push(str.charAt(i));
@@ -71,7 +72,7 @@ public class StackA {
         System.out.println(result.toString());
          
         }
-        
+   //===============reverse a string==================== 
     public static void pushAtBottom(Stack<Integer>s,int data){
         if(s.isEmpty()){
             s.push(data);
@@ -82,7 +83,7 @@ public class StackA {
         pushAtBottom(s, data);
         s.push(top);
     }
-
+// ================reverse a stack====================
     public static void reverseStack(Stack<Integer> s){
         if(s.isEmpty()){
             return;
@@ -96,6 +97,7 @@ public class StackA {
             System.out.println(s.pop());
         }
     }
+    // =================Stock span=======================
     public static void stockSpan(int stock[] , int span[]){
         span[0]=1;
         Stack<Integer> s = new Stack<>();
@@ -116,6 +118,7 @@ public class StackA {
         }
         
     }
+    // ================= valide parentheses================
     public static boolean valideParentheses(String str){
             Stack<Character>s = new Stack<>();
            for(int i = 0 ; i<str.length();i++){
@@ -142,6 +145,7 @@ public class StackA {
             return false;
            }
         }
+        // =============finding next grater=================
     public static void nextMax(int arr[],int nextGrater[]){
          Stack<Integer>s = new Stack<>();
         for(int i = arr.length-1;i>=0;i--){
@@ -161,8 +165,36 @@ public class StackA {
         }
         System.out.println();
         }
+    public static boolean duplicateParentheses(String str){
+        Stack<Character>s = new Stack<>();
+        for(int i=0;i<str.length();i++){
+        char ch = str.charAt(i);
+
+        if(ch == ')'){
+            int count =0;
+            while(s.peek() != '('){
+                s.pop();
+                count++;
+            }
+            if(count<1){
+                return true;
+            }
+           else{
+            s.pop();
+           }
+        }
+        else{
+            s.push(ch);
+        }
+        }
+     return false;
+    }
+
     public static void main(String[] args) {
-     String str ="{[]}";
-     System.out.println(valideParentheses(str));  
+     String str ="((a+b))";
+     String str2="(a+b)";
+     System.out.println(duplicateParentheses(str));
+     System.out.println(duplicateParentheses(str2));
+   
     }
 }
