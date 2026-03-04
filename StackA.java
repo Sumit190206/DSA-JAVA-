@@ -221,3 +221,42 @@ public class StackA {
     maxArea(arr);
     }
 }
+
+// ============ LEET CODE 155================-
+class MinStack {
+    Stack<Integer>s;
+    Stack<Integer>minStack;
+    public MinStack() {
+        s= new Stack<>();
+        minStack= new Stack<>();
+    }
+    
+    public void push(int val) {
+        s.push(val);
+        if(minStack.isEmpty() || val<=minStack.peek()){
+            minStack.push(val);
+        }
+    }
+    
+  public void pop() {
+    if (s.isEmpty()) return;
+
+    int removed = s.pop();
+    if (!minStack.isEmpty() && removed == minStack.peek()) {
+        minStack.pop();
+    }
+}
+
+    
+    public int top() {   
+    return s.peek();  
+}
+    
+    
+    public int getMin() {
+    if (minStack.isEmpty()) {
+        throw new RuntimeException("Stack is empty");
+    }
+    return minStack.peek();
+}
+}
