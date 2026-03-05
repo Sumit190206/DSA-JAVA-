@@ -341,8 +341,8 @@ public class Linklist {
         
         while(prev.next != null && prev.next.next != null){
             
-            ListNode first = prev.next;
-            ListNode second = prev.next.next;
+            Node first = prev.next;
+            Node second = prev.next.next;
             first.next = second.next;
             second.next = first;
             prev.next = second;
