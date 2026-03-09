@@ -289,6 +289,27 @@ public class Linklist {
             return merge(leftpart,rightPart);
 
         }
+          public Node deleteDuplicates(Node head) {
+        if(head == null || head.next == null){
+            return head;
+        }
+        Node dummy = head;
+        Node nextN = head.next;
+        while(nextN != null){
+            if(dummy.val == nextN.val){
+                dummy.next = nextN.next;
+                nextN=nextN.next;
+            }
+            else{
+                 dummy = dummy.next;
+                 nextN=nextN.next;
+            }
+           
+        }
+
+        return head;
+        
+    }
     //   ZIG-ZAG THE LINKED LIST 
         public void zigZag(){
 
