@@ -289,14 +289,16 @@ public class Linklist {
             return merge(leftpart,rightPart);
 
         }
-          public Node deleteDuplicates(Node head) {
+        // ============ LC = 83 ================
+
+      public Node deleteDuplicates(Node head) {
         if(head == null || head.next == null){
             return head;
         }
         Node dummy = head;
         Node nextN = head.next;
         while(nextN != null){
-            if(dummy.val == nextN.val){
+            if(dummy.data == nextN.data){
                 dummy.next = nextN.next;
                 nextN=nextN.next;
             }
@@ -395,16 +397,7 @@ public class Linklist {
         System.out.println();
 
 
-        Linklist ll2 = new Linklist();
-        ll2.addFirst(1);
-        ll2.addLast(2);
-        ll2.addLast(3);
-        ll2.addLast(4);
-        ll2.addLast(5);
-        ll2.printList();
-        ll2.zigZag();
-        ll2.printList();
-
+      
     }
     
 }
