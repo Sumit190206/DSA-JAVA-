@@ -397,16 +397,6 @@ public class Linklist {
         System.out.println();
 
 
-        Linklist ll2 = new Linklist();
-        ll2.addFirst(1);
-        ll2.addLast(2);
-        ll2.addLast(3);
-        ll2.addLast(4);
-        ll2.addLast(5);
-        ll2.printList();
-        ll2.zigZag();
-        ll2.printList();
-
     }
     
 }
