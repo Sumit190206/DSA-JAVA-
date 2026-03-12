@@ -12,6 +12,15 @@ public class Classroom {
         }
 
     }
+    public static void queueReversal(Queue<Integer>q){
+        Stack<Integer> s = new Stack<>();
+        while (!q.isEmpty()) {
+            s.push(q.remove());
+        }
+        while (!s.isEmpty()) {
+            q.add(s.pop());
+        }
+    }
     public static void main(String[] args) {
         Queue<Integer>q = new LinkedList<>();
         q.add(1);
@@ -24,7 +33,8 @@ public class Classroom {
         q.add(8);
         q.add(9);
         q.add(10);
-        interLeaves(q);
+        // interLeaves(q);
+        queueReversal(q);
         while(!q.isEmpty()){
             System.out.print(q.remove() + "  ");
         }
