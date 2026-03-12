@@ -21,28 +21,39 @@ public class Classroom {
             q.add(s.pop());
         }
     }
-    public static void main(String[] args) {
-        Queue<Integer>q = new LinkedList<>();
-        q.add(1);
-        q.add(2);
-        q.add(3);
-        q.add(4);
-        q.add(5);
-        q.add(6);
-        q.add(7);
-        q.add(8);
-        q.add(9);
-        q.add(10);
-        // interLeaves(q);
-        queueReversal(q);
-        while(!q.isEmpty()){
-            System.out.print(q.remove() + "  ");
+    static class stack {
+        Deque<Integer>d= new LinkedList<>();
+
+        public boolean isEmpty(){
+            return d.isEmpty();
         }
-        System.out.println();
-        Deque<Integer>d = new LinkedList<>();
-        d.addFirst(1);
-        d.addFirst(2);
-        d.addFirst(3);
-        System.out.println(d);
+        public  void push (int data){
+            d.addLast(data);
+        }
+        public  int pop(){
+            if(d.isEmpty()){
+                return -1;
+            }
+            return d.removeLast();
+        }
+        public int peek(){
+            if(d.isEmpty()){
+                return -1;
+            }
+            return d.getLast()  ;
+        }
+
+            
+        }
+    public static void main(String[] args) {
+       stack s = new stack();
+       s.push(1);
+       s.push(2);
+       s.push(3);
+       s.push(4);
+
+       while(!s.isEmpty()){
+        System.out.print(s.pop()+" ");
+       }
     }
 }
