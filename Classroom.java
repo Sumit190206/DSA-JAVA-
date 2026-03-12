@@ -26,8 +26,8 @@ public class Classroom {
         q.add(10);
         interLeaves(q);
         while(!q.isEmpty()){
-            System.out.println(q.peek());
-            q.remove();
+            System.out.print(q.remove() + "  ");
         }
+        System.out.println();
     }
 }
