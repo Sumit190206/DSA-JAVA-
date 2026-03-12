@@ -39,5 +39,10 @@ public class Classroom {
             System.out.print(q.remove() + "  ");
         }
         System.out.println();
+        Deque<Integer>d = new LinkedList<>();
+        d.addFirst(1);
+        d.addFirst(2);
+        d.addFirst(3);
+        System.out.println(d);
     }
 }
