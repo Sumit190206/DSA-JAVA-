@@ -1,17 +1,10 @@
 import java.util.*;;
 public class Classroom {
+    // ============== InterLeaves ====================
     public static void interLeaves(Queue<Integer>q){
-        int  size = q.size();
-        Queue<Integer>q2 = new LinkedList<>();
-        for(int i = 0; i<size/2;i++){
-            q2.add(q.remove());
-        }
-        while (!q2.isEmpty()) {
-            q.add(q2.remove());
-            q.add(q.remove());
-        }
-
+      
     }
+    // =========== Reverse a Queue =============
     public static void queueReversal(Queue<Integer>q){
         Stack<Integer> s = new Stack<>();
         while (!q.isEmpty()) {
@@ -21,6 +14,7 @@ public class Classroom {
             q.add(s.pop());
         }
     }
+    // ============ Stack using Deque =================
     static class stack {
         Deque<Integer>d= new LinkedList<>();
 
@@ -45,6 +39,7 @@ public class Classroom {
 
             
         }
+        // ============= Queue using Deque ============
         static class queue {
         Deque<Integer>d= new LinkedList<>();
 
@@ -75,7 +70,7 @@ public class Classroom {
        s.push(2);
        s.push(3);
        s.push(4);
-       System.out.println("Stack ::" + "peek = "+ s.peek());
+       System.out.println("Stack :: " + "peek = "+ s.peek());
        while(!s.isEmpty()){
         System.out.print(s.pop()+" ");
        }
@@ -85,7 +80,7 @@ public class Classroom {
        q.add(2);
        q.add(3);
        q.add(4);
-       System.out.println("Queue" + "peek = "+ q.peek());
+       System.out.println("Queue :: " + "peek = "+ q.peek());
        while (!q.isEmpty()) {
         System.out.print(q.remove()+" ");
        }
