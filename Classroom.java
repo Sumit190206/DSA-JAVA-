@@ -133,4 +133,28 @@ public class Classroom {
         return closest;
     }
 
+    // ===========  LeetCode Q 2073===============
+    public int timeRequiredToBuy(int[] tickets, int k) {
+        Queue<int[]> q = new LinkedList<>();
+        int time = 0;
+
+        for(int i = 0; i < tickets.length; i++){
+            q.add(new int[]{tickets[i], i});
+        }
+
+        while(true){
+            int[] person = q.remove();
+
+            person[0]--;     
+            time++;
+            if(person[1] == k && person[0] == 0){
+                return time;
+            }
+            if(person[0] > 0){
+                q.add(person);
+            }
+        }
+    }
+
+
 }
