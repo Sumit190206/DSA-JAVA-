@@ -1,0 +1,4 @@
+git status
+git add filename.java      # or git add .
+git commit -m "Your message"
+git push
