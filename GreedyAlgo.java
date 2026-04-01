@@ -14,8 +14,8 @@ public class GreedyAlgo {
         }
         return count;
     }
-//     public static void main(String[] args) {
-//         int intervals[][] = {{1,2},{2,3},{3,4},{2,4}};
-//         System.out.println(eraseOverlapIntervals(intervals));
-//     }
-// }
+    public static void main(String[] args) {
+        int intervals[][] = {{1,2},{2,3},{3,4},{2,4}};
+        System.out.println(eraseOverlapIntervals(intervals));
+    }
+}
