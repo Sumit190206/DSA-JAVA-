@@ -1,12 +1,6 @@
 
 public class Backtracking {
-    // nQueens
-    public static void nQueens(char arr[][],int row){
-        if(row == arr.length){
-            printarr(arr);
-            return;
-        }
-        
+   
 
         for(int j=0;j<arr.length;j++){
             if(isSafe(arr, row, j)){
