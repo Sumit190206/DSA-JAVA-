@@ -8,10 +8,7 @@ public class Backtracking {
         }
         
 
-        for(int j=0;j<arr.length;j++){
-            if(isSafe(arr, row, j)){
-                 arr[row][j]='Q';
-                 nQueens(arr, row+1);
+        
                  arr[row][j]='x';
   
             }
