@@ -15,7 +15,7 @@ public class Backtracking {
                  nQueens(arr, row+1);
                  arr[row][j]='x';
   
-           
+            }
         }
     }
     public static boolean isSafe(char arr[][],int row,int col){
