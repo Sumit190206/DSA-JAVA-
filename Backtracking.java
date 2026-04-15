@@ -15,13 +15,10 @@ public class Backtracking {
                  nQueens(arr, row+1);
                  arr[row][j]='x';
   
-        }
+        
     }
-    public static boolean isSafe(char arr[][],int row,int col){
-        for(int i=row-1;i>=0;i--){
-            if(arr[i][col]=='Q')
-            return false;
-        }
+   
+    
         for(int i=row-1 ,j=col-1;i>=0 && j>=0;i--,j--){
            if( arr[i][j]=='Q')
             return false;
