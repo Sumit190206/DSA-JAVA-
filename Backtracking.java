@@ -27,7 +27,7 @@ public class Backtracking {
            if( arr[i][j]=='Q')
             return false;
         }
-        
+        return true;
 
     }
     public static void printarr(char arr[][]){
