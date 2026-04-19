@@ -23,11 +23,7 @@ public class Backtracking {
            if( arr[i][j]=='Q')
             return false;
         }
-         for(int i=row-1 ,j=col+1;i>=0 && j<arr.length;i--,j++){
-           if( arr[i][j]=='Q')
-            return false;
-        }
-        return true;
+         
 
     }
     public static void printarr(char arr[][]){
