@@ -13,3 +13,15 @@ The goal of this repository is to:
 
 
 Feel free to explore, learn from my code, or even suggest improvements....!!!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
+<!---LeetCode Topics End-->
