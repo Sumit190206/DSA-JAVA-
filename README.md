@@ -21,6 +21,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
+| [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 ## Two Pointers
 |  |
 | ------- |
@@ -33,4 +34,12 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
