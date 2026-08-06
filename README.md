@@ -22,6 +22,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
+| [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
 ## Two Pointers
 |  |
 | ------- |
@@ -42,4 +43,16 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
+## Binary Search
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
