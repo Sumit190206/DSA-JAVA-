@@ -9,7 +9,7 @@ class Solution {
         }
        int max=Integer.MIN_VALUE;
        int final_max =Integer.MIN_VALUE;
-       int count=0;;
+       int count=0;
        for(int i=0;i<nums.length;i++){
         if(max == nums[i]){
             continue;
