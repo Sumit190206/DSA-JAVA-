@@ -23,6 +23,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+| [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -55,4 +56,8 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+## Sorting
+|  |
+| ------- |
+| [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 <!---LeetCode Topics End-->
