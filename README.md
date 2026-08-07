@@ -24,6 +24,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
+| [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 ## Two Pointers
 |  |
 | ------- |
