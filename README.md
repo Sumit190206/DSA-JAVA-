@@ -29,6 +29,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
+| [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
 ## Math
 |  |
 | ------- |
@@ -41,6 +42,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
+| [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
 ## Greedy
 |  |
 | ------- |
@@ -61,4 +63,8 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
+## String
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
