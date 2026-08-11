@@ -66,5 +66,14 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## String
 |  |
 | ------- |
+| [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
+## Hash Table
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
