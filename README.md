@@ -35,6 +35,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
 ## Matrix
 |  |
 | ------- |
@@ -81,4 +82,9 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
