@@ -40,6 +40,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
+| [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Matrix
 |  |
@@ -76,6 +77,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
+| [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
 ## Hash Table
 |  |
@@ -102,5 +104,6 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3069-distribute-elements-into-two-arrays-i) |
 <!---LeetCode Topics End-->
