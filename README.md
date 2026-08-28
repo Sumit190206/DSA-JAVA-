@@ -23,6 +23,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+| [0283-move-zeroes](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
@@ -33,6 +34,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
+| [0283-move-zeroes](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
 ## Math
 |  |
