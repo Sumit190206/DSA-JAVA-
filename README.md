@@ -27,6 +27,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+| [0915-partition-array-into-disjoint-intervals](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0915-partition-array-into-disjoint-intervals) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3069-distribute-elements-into-two-arrays-i) |
