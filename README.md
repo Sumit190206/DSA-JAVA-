@@ -26,6 +26,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0283-move-zeroes](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -73,6 +74,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
 ## String
 |  |
@@ -108,4 +110,28 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3069-distribute-elements-into-two-arrays-i) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
