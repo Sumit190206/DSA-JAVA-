@@ -26,6 +26,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
 | [0283-move-zeroes](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
+| [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [0915-partition-array-into-disjoint-intervals](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0915-partition-array-into-disjoint-intervals) |
@@ -53,6 +54,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
+| [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -140,4 +142,8 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
+## Depth-First Search
+|  |
+| ------- |
+| [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
 <!---LeetCode Topics End-->
