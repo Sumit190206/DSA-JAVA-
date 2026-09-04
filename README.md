@@ -34,6 +34,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3875-construct-uniform-parity-array-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -50,6 +51,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
 | [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3875-construct-uniform-parity-array-i) |
 ## Matrix
 |  |
 | ------- |
