@@ -71,6 +71,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+| [0278-first-bad-version](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0278-first-bad-version) |
 ## Sliding Window
 |  |
 | ------- |
@@ -151,4 +152,8 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
