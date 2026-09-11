@@ -24,6 +24,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0057-insert-interval) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+| [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 | [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
@@ -83,6 +84,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## Sorting
 |  |
 | ------- |
+| [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
@@ -147,6 +149,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## Counting Sort
 |  |
 | ------- |
+| [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 ## Depth-First Search
 |  |
