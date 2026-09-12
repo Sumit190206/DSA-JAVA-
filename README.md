@@ -85,6 +85,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
+| [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
@@ -94,6 +95,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0344-reverse-string](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
+| [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
@@ -102,6 +104,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
+| [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
@@ -120,6 +123,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
+| [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
 ## Simulation
 |  |
