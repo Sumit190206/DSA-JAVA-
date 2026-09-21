@@ -31,6 +31,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
+| [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [0915-partition-array-into-disjoint-intervals](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0915-partition-array-into-disjoint-intervals) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
@@ -53,6 +54,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0050-powx-n](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
 | [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
+| [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3875-construct-uniform-parity-array-i) |
 ## Matrix
