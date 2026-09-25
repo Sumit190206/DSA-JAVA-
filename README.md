@@ -34,6 +34,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [0915-partition-array-into-disjoint-intervals](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0915-partition-array-into-disjoint-intervals) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
@@ -57,6 +58,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
 | [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
+| [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3875-construct-uniform-parity-array-i) |
 ## Matrix
@@ -174,4 +176,12 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0278-first-bad-version) |
+## Geometry
+|  |
+| ------- |
+| [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
+## Polygons
+|  |
+| ------- |
+| [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
 <!---LeetCode Topics End-->
