@@ -33,6 +33,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [0915-partition-array-into-disjoint-intervals](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0915-partition-array-into-disjoint-intervals) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
@@ -78,6 +79,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0278-first-bad-version) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
 ## Sliding Window
 |  |
 | ------- |
