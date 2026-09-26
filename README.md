@@ -32,6 +32,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
 | [0561-array-partition](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0561-array-partition) |
+| [0565-array-nesting](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0565-array-nesting) |
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -176,6 +177,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
+| [0565-array-nesting](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0565-array-nesting) |
 ## Interactive
 |  |
 | ------- |
