@@ -31,6 +31,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0419-battleships-in-a-board](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0419-battleships-in-a-board) |
 | [0485-max-consecutive-ones](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
+| [0561-array-partition](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0561-array-partition) |
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -76,6 +77,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0134-gas-station) |
+| [0561-array-partition](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0561-array-partition) |
 ## Binary Search
 |  |
 | ------- |
@@ -97,6 +99,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
+| [0561-array-partition](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0561-array-partition) |
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
@@ -167,6 +170,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
+| [0561-array-partition](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0561-array-partition) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
 ## Depth-First Search
 |  |
