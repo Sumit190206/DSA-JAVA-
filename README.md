@@ -26,6 +26,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0057-insert-interval](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0057-insert-interval) |
 | [0134-gas-station](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0134-gas-station) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
+| [0217-contains-duplicate](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
@@ -98,6 +99,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
@@ -120,6 +122,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0217-contains-duplicate) |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
