@@ -100,6 +100,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0274-h-index) |
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0414-third-maximum-number) |
@@ -110,6 +111,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
@@ -123,6 +125,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0001-two-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
