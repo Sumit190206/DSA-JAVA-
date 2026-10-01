@@ -19,6 +19,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0055-jump-game) |
@@ -118,6 +119,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0001-two-sum) |
 | [0383-ransom-note](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
