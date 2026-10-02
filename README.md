@@ -37,6 +37,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0565-array-nesting](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0565-array-nesting) |
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
+| [0706-design-hashmap](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0706-design-hashmap) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
 | [0912-sort-an-array](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0912-sort-an-array) |
@@ -130,6 +131,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0389-find-the-difference](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0389-find-the-difference) |
 | [0500-keyboard-row](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0500-keyboard-row) |
 | [0594-longest-harmonious-subsequence](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0594-longest-harmonious-subsequence) |
+| [0706-design-hashmap](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0706-design-hashmap) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2206-divide-array-into-equal-pairs) |
 | [2418-sort-the-people](https://github.com/Sumit190206/DSA-JAVA-/tree/master/2418-sort-the-people) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Sumit190206/DSA-JAVA-/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -198,4 +200,16 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
+## Linked List
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0706-design-hashmap) |
+## Design
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0706-design-hashmap) |
+## Hash Function
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
