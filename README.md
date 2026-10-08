@@ -215,4 +215,8 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 |  |
 | ------- |
 | [0706-design-hashmap](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0706-design-hashmap) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
