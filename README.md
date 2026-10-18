@@ -62,6 +62,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | [0048-rotate-image](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0231-power-of-two) |
+| [0367-valid-perfect-square](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0367-valid-perfect-square) |
 | [0412-fizz-buzz](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0412-fizz-buzz) |
 | [0598-range-addition-ii](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0598-range-addition-ii) |
 | [0812-largest-triangle-area](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0812-largest-triangle-area) |
@@ -90,6 +91,7 @@ Feel free to explore, learn from my code, or even suggest improvements....!!!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0278-first-bad-version) |
+| [0367-valid-perfect-square](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0367-valid-perfect-square) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sumit190206/DSA-JAVA-/tree/master/0744-find-smallest-letter-greater-than-target) |
 ## Sliding Window
 |  |
